@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Schema Architect: Live Audit & Inspector",
+  "version": "2.0.2",
+  "description": "Analyze and build schema for any page, directly from your DevTools. This extension only accesses the page you are actively inspecting, and never collects or stores your browsing data.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "assets/img/icons/icon16.png",
+    "48": "assets/img/icons/icon48.png",
+    "128": "assets/img/icons/icon128.png"
+  },
+  "devtools_page": "devtools.html"
+}
